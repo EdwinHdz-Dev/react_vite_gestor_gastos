@@ -445,3 +445,18 @@ body .modal {
     font-size: 2.4rem;
     text-align: right;
 }
+
+.campo-filtros {
+    display: flex;
+    /* Habilita Flexbox */
+    flex-direction: row;
+    /* Organiza los hijos verticalmente */
+    align-items: center;
+    /* Centra los hijos horizontalmente */
+    justify-content: center;
+    /* Centra los hijos verticalmente si hay espacio */
+    text-align: center;
+    /* Asegura que el texto dentro de los hijos también esté centrado */
+    gap: 20px;
+
+}
