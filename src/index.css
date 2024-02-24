@@ -86,7 +86,7 @@ header h1 {
 .formulario .campo {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px; /* Alineación predeterminada */
+    margin-bottom: 20px;
 }
 
 .formulario label {
